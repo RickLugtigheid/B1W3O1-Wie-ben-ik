@@ -5,32 +5,41 @@ body{
 }
 h1{
     text-align: center;
-    color: whitesmoke;
+    color: rgb(216, 216, 216);
     font-size: 40px;
 }
 div{
     text-align: center;
     color: antiquewhite;
+    font-size: 16px;
+    outline: 2px white double;
+    outline-offset: 6px;
+    width: 750px;
+    
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 button{
-    background-color: rgb(207, 204, 201);
-    border: none;
-    color: antiquewhite;
-    padding: 16px 32px;
+    background-color: rgb(82, 82, 82);
+    color: gray;
+    padding: 8px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8px;
     font-size: 16px;
+    align-self: center;
+    border: none;
 }
 .button:active{
     background-color: rgb(95, 93, 93);
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 9px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 4px;
     font-size: 16px;
 }
